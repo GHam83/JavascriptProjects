@@ -5,6 +5,13 @@
         <title>Java!</title>
     </head>
     <body>
+        <p>Click to display Date</p>
+        <button onclick="displayDate()">The time is:</button>
+        <script>
+            function displayDate() {
+                document.getElementByID("demo").innerHTML =Date();
+            }
+        </script>
         <div>
             <script src="Project1_expressions/main.js"></script>
         </div>

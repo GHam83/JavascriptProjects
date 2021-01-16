@@ -17,3 +17,5 @@ document.write(Spaniel);//have document print colored var
 document.write(3+3);//expression
 
 
+
+
